@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'Auth' do |auth|
     auth.dependency 'MSGraphSDK-NXOAuth2Adapter/Common'
-    auth.dependency 'NXOAuth2Client', '~> 1.2.8'
+    auth.dependency 'NXOAuth2Client'
     auth.dependency 'MSGraphSDK/Common'
     auth.dependency 'MSGraphSDK/Implementations'
 
